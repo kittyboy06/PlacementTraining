@@ -6,7 +6,7 @@ class T23_In3
     {
         Scanner inp = new Scanner(System.in);
         char c=inp.next().charAt(0);
-        if(c == 'A' || c == 'E' || c == 'I' || c== '0' || c == 'U' || c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+        if(c == 'A' || c == 'E' || c == 'I' || c== 'O' || c == 'U' || c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
         {
             out.print("Vowel");
         }
