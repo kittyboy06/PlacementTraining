@@ -1,6 +1,6 @@
 import static java.lang.System.out;
 import java.util.Scanner;
-class T24_Post1
+class T24_In1
 {
     public static void main(String[] args)
     {
