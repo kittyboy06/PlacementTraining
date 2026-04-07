@@ -1,0 +1,19 @@
+import static java.lang.System.out;
+import java.util.Scanner;
+
+class T27_Post2
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        String binary = sc.next().trim();
+        int decimal = 0;
+
+        for (int i = 0; i < binary.length(); i++)
+        {
+            decimal = decimal * 2 + (binary.charAt(i) - '0');
+        }
+
+        out.print(decimal);
+    }
+}
